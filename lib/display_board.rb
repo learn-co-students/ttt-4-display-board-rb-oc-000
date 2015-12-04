@@ -7,14 +7,10 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-board=["X", "X", " ", " ", " ", " ", " ", " ", " "]
+board=[" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 
-puts "Whats your name?"
-name=gets.chomp
-puts "Well, #{name}, wanna play tic tac toe today"
 
-display_board(board)
 
 
 
