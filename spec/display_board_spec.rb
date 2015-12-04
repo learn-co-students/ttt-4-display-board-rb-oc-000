@@ -166,4 +166,3 @@ describe "#display_board in 'lib/display_board.rb" do
       # expect(true).to be(true)
     end
   end
-end
