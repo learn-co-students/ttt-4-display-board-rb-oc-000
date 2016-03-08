@@ -50,9 +50,9 @@ def display_board(board)
   puts ["-----------"]
   puts ["   |   |   "]
 
-  puts [" O | X | X "]
+  puts [" O | #{board[0]} | X "]
   puts ["-----------"]
-  puts [" O | X | O "]
+  puts [" O | #{board[0]} | O "]
   puts ["-----------"]
   puts ["   |   |   "]
 
