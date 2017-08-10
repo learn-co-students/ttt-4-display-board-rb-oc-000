@@ -15,6 +15,7 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[4]).to eq("   |   |   ")
     end
 
+
     it 'prints a board with an X in the center position' do
       board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 
